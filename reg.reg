@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Remove VMware registry keys
+[-HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmci]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmhgfs]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmmouse]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmmemctl]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmx_svga]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vm3dmp]
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vmrawdsk]
